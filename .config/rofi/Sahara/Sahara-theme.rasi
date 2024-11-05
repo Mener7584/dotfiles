@@ -1,0 +1,120 @@
+/*****----- Reset Stock Properties -----*****/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	spacing: 0;
+}
+
+
+/*****----- Colors -----*****/
+* {	
+	bg: #19120D;
+	background-color: transparent;
+	fg: #F0DFD6;
+	color: @fg;
+	primary: #FFB77E;
+	primary-fg: #392d25;
+	error: #FFB4AB;
+	error-fg: #690005;
+	border: #413731;
+}
+
+
+/*****----- Main Window -----*****/
+window {
+	background-color: @bg;
+	padding: 8px;
+	width: 626px;
+	border-radius: 0;
+	border: 2px;
+	border-color: @primary;
+	margin: 0 0 8px 0;
+}
+
+
+/*****----- Main Box -----*****/
+mainbox {
+	spacing: 8px;
+}
+
+
+/*****----- Input bar -----*****/
+inputbar {
+	children: ["entry", "separator", "mode-switcher"];
+}
+
+entry {
+	cursor: text;
+	padding: 6px 8px;
+	border-radius: 2px;
+	placeholder: "Search";
+	width: 299px;
+	expand: false;
+	background-color: #E3C0A6;
+	color: #422C1A;
+}
+
+separator {
+	expand: true;
+}
+
+mode-switcher{
+	spacing: 8px;
+}
+
+
+/*****----- Mode Switcher -----*****/
+button {
+	padding: 0px 18px 0px 12px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+button selected {
+	background-color: @primary;
+	color: @primary-fg;
+}
+
+
+/*****----- Listview -----*****/
+listview {
+	columns: 2;
+	lines: 6;
+	spacing: 0 8px;
+}
+
+
+/*****----- Elements -----*****/
+element {
+	border-radius: 2px;
+	padding: 8px 4px;
+	spacing: 0 4px;
+}
+
+element-icon {
+	size: 22;
+}
+
+element selected {
+	background-color: @primary;
+}
+
+element-text selected {
+	color: @primary-fg;
+}
+
+element,element-text,element-icon {
+	cursor: pointer;
+}
+
+
+/*****----- Message -----*****/
+error-message {
+	padding: 12px;
+	border: 2px;
+	border-radius: 6px;
+	border-color: @error-fg;
+	color: @error-fg;
+	background-color: @error;
+}
