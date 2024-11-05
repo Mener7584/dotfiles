@@ -1,0 +1,17 @@
+{
+  "modules-left": ["river/tags"],
+  "modules-center": ["clock"],
+  "modules-right": [
+    "tray",
+    // "group/scrollable",
+    "wireplumber",
+    "backlight",
+    "group/information"
+  ],
+
+  "river/tags": {
+    "tag-labels": ["■", "■", "■", "■", "■", "■", "■", "■", "■"]
+  },
+
+  "include": ["$HOME/.config/waybar/Sahara/config.jsonc"]
+}

@@ -1,0 +1,119 @@
+/* Colors */
+@define-color fg #EFDFD6;
+@define-color bg #19120D;
+@define-color dark-text #392d25;
+@define-color primary #FFB785;
+@define-color error #FFB4AB;
+@define-color error-fg #690005;
+@define-color disabled #51443B;
+
+/* Reset styles */
+window#waybar,
+#workspaces button,
+#tags button,
+tooltip {
+  all: unset;
+}
+
+/* Not override styles!!! */
+* {
+  min-height: 0;
+  min-width: 0;
+  font-family: "JetBrains Mono";
+  /* This font-size working fine on text-scale-factor=1.25 and font-name=Roboto 9 !!!!!!!!!!!!!!!!!!!!!! */
+  /* 13.5px = 9px*1.5 */
+  font-size: 8.5pt;
+  /* font-size: calc(7.25px * 2); */
+}
+
+/* Tooltip */
+tooltip {
+  background-color: @bg;
+  border: 0.147058em solid @primary;
+}
+
+tooltip label {
+  color: @fg;
+}
+
+/* Bar styles */
+window#waybar {
+  background-color: @bg;
+  color: @fg;
+}
+
+window#waybar > * {
+  padding: 0.294117em;
+}
+
+#workspaces button,
+#workspaces button.persistent,
+#tags button {
+  padding: 0 10px;
+  margin-right: 0.294117em;
+  color: #6c3a07;
+}
+
+#workspaces button:last-child,
+#tags button:last-child {
+  margin-right: 0;
+}
+
+#workspaces button,
+#tags button.occupied {
+  color: @primary;
+}
+
+#workspaces button.active,
+#workspaces button.focused,
+#tags button.focused {
+  background-color: @primary;
+  color: #4d2600;
+}
+
+#workspaces button.urgent,
+#tags button.urgent {
+  background-color: @error;
+  color: @error-fg;
+}
+
+/* Wireplumber */
+#wireplumber.muted {
+  color: @disabled;
+}
+
+/* Battery */
+#battery.warning {
+  color: #e3c0a6;
+}
+
+#battery.critical {
+  color: @error;
+}
+
+#battery.charging {
+  color: #c5cb96;
+}
+
+#workspaces,
+#tags,
+#wireplumber,
+#battery,
+#backlight,
+#clock,
+#language,
+#tray {
+  /* padding: 0 4px; */
+  /* background-color: #221a14; */
+}
+
+#workspaces,
+#tags {
+  padding: 0;
+}
+
+/* #wireplumber, */
+/* #language, */
+/* #temperature { */
+/* padding-right: 8px; */
+/* } */

@@ -1,0 +1,59 @@
+{
+  // ==========BAR=======================================//
+  "layer": "bottom",
+  "position": "bottom",
+  "spacing": 18,
+  "width": 1000,
+  "fixed-center": true,
+
+  // ==========MODULES==================================//
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "states": {
+      "warning": 30,
+      "critical": 20
+    },
+    "format-icons": ["", "", "", "", ""]
+  },
+
+  "clock": {
+    "format": " {:%H:%M  %d/%m/%Y}",
+    "tooltip-format": " {:%A %d %B}"
+  },
+
+  "temperature": {
+    "critical-threshold": 70,
+    "format": " {temperatureC}°C"
+  },
+  "backlight": {
+    "interval": 60,
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
+    "scroll-step": 2,
+    "tooltip": false
+  },
+
+  "wireplumber": {
+    "format": "{icon} {volume}%",
+    "format-muted": "󰝟 {volume}%",
+    "format-icons": ["󰕿", "󰖀", "󰕾"],
+    "scroll-step": 2,
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+  },
+
+  "tray": {
+    "icon-size": 15,
+    "spacing": 6
+  },
+
+  //==============GROUPS===========================================//
+  "group/scrollable": {
+    "orientation": "horizontal",
+    "modules": ["wireplumber", "backlight"]
+  },
+
+  "group/information": {
+    "orientation": "horizontal",
+    "modules": ["battery"]
+  }
+}
