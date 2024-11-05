@@ -10,7 +10,7 @@ export SDL_VIDEODRIVER=wayland
 export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 
 # Set default gpu only for hybrid,multi gpu's
-export WLR_DRM_DEVICES=/dev/dri/card1
+#export WLR_DRM_DEVICES=/dev/dri/card1
 
 # Themes
 export QT_QPA_PLATFORMTHEME=qt5ct
