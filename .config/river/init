@@ -24,7 +24,7 @@ riverctl spawn 'mako'
 riverctl spawn 'waybar -c $HOME/.config/waybar/Sahara/config.jsonc -s $HOME/.config/waybar/Sahara/style.css -l warning'
 riverctl spawn 'wl-paste --watch cliphist -max-items 36 store'
 riverctl spawn '/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1'
-riverctl spawn 'swaybg -i $HOME/.local/share/wallpapers/01.jpg -m fill'
+riverctl spawn 'swaybg -i $HOME/.local/share/wallpapers/Sahara.jpg -m fill'
 riverctl spawn '/usr/lib/xdg-desktop-portal-wlr'
 riverctl spawn '/usr/lib/xdg-desktop-portal-gtk'
 
