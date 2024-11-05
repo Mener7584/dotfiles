@@ -2,12 +2,15 @@
 @define-color fg #EFDFD6;
 @define-color bg #19120D;
 @define-color primary #FFB785;
+@define-color primary_container #6C3A07;
+@define-color on_primary #4D2600;
+@define-color tertiary #C5CB96;
+@define-color warning #e3c0a6;
 @define-color error #FFB4AB;
 @define-color disabled #51443B;
 
 /* Reset styles */
 window#waybar,
-#workspaces button,
 #tags button,
 tooltip {
   all: unset;
@@ -24,7 +27,7 @@ tooltip {
 /* Tooltip */
 tooltip {
   background-color: @bg;
-  border: 0.147058em solid @primary;
+  border: 2px solid @primary;
 }
 
 tooltip label {
@@ -38,13 +41,13 @@ window#waybar {
 }
 
 window#waybar > * {
-  padding: 0.294117em;
+  padding: 4px;
 }
 
 #tags button {
   padding: 0 10px;
-  margin-right: 0.294117em;
-  color: #6c3a07;
+  margin-right: 4px;
+  color: @primary_container;
 }
 
 #tags button:last-child {
@@ -57,7 +60,7 @@ window#waybar > * {
 
 #tags button.focused {
   background-color: @primary;
-  color: #4d2600;
+  color: @on_primary;
 }
 
 #tags button.urgent {
@@ -72,7 +75,7 @@ window#waybar > * {
 
 /* Battery */
 #battery.warning {
-  color: #e3c0a6;
+  color: @warning;
 }
 
 #battery.critical {
@@ -80,5 +83,5 @@ window#waybar > * {
 }
 
 #battery.charging {
-  color: #c5cb96;
+  color: @tertiary;
 }
