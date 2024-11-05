@@ -6,7 +6,16 @@
   "width": 1000,
   "fixed-center": true,
 
+  "modules-left": ["river/tags"],
+  "modules-center": ["clock"],
+  "modules-right": ["tray", "wireplumber", "backlight", "battery"],
+
+
   // ==========MODULES==================================//
+  "river/tags": {
+    "tag-labels": ["■", "■", "■", "■", "■", "■", "■", "■", "■"]
+  },
+
   "battery": {
     "format": "{icon} {capacity}%",
     "states": {
