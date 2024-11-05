@@ -21,7 +21,7 @@ riverctl spawn 'gsettings set org.gnome.desktop.wm.preferences button-layout "ap
 riverctl spawn 'foot -s'
 riverctl spawn 'ryzenadj -f 75'
 riverctl spawn 'mako'
-riverctl spawn 'waybar -c $HOME/.config/waybar/Sahara/river.jsonc -s $HOME/.config/waybar/Sahara/style.css -l warning'
+riverctl spawn 'waybar -c $HOME/.config/waybar/Sahara/config.jsonc -s $HOME/.config/waybar/Sahara/style.css -l warning'
 riverctl spawn 'wl-paste --watch cliphist -max-items 36 store'
 riverctl spawn '/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1'
 riverctl spawn 'swaybg -i $HOME/.local/share/wallpapers/01.jpg -m fill'
