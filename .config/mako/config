@@ -1,0 +1,21 @@
+font=monospace 10.25
+background-color=#19120D
+text-color=#F0DFD6
+border-color=#FFB785
+border-radius=0
+border-size=2
+margin=0,0,8,0
+outer-margin=17,17
+padding=10
+icon-path=/usr/share/icons/Papirus-Dark/
+max-icon-size=48
+on-button-right=dismiss-all
+width=378
+height=160
+anchor=bottom-right
+
+[urgency=high]
+background-color=#FFB4AB
+text-color=#690005
+border-color=#690005
+default-timeout=0
