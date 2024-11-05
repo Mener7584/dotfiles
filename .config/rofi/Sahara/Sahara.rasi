@@ -1,0 +1,16 @@
+configuration {
+	modes: "drun,filebrowser";
+	font: "JetBrains Mono Nerd Font 9";
+	show-icons: true;
+	location: 6;
+	icon-theme: "Papirus-Dark";
+	dpi: 120;
+	display-drun: "";
+	display-filebrowser: "";
+	drun-display-format: "{name}";
+	hover-select: false;
+	me-select-entry: "";
+	me-accept-entry: "MousePrimary";
+}
+
+@theme ".config/rofi/Sahara/Sahara-theme.rasi"
