@@ -1,0 +1,22 @@
+#!/bin/env sh
+
+# HiDPi Scale
+# export QT_SCALE_FACTOR=1.25
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export ELECTRON_OZONE_PLATFORM_HINT=auto
+
+# Wayland
+export SDL_VIDEODRIVER=wayland
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+
+# Set default gpu only for hybrid,multi gpu's
+export WLR_DRM_DEVICES=/dev/dri/card1
+
+# Themes
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+# Set xdg current desktop
+export XDG_CURRENT_DESKTOP=river
+
+# Run session
+exec dbus-run-session river -log-level error -no-xwayland
