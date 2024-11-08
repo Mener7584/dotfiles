@@ -1,5 +1,5 @@
 This is my first unixporn rice!!!!!<br/>
-◉ iWallpaper: Sahara? (I found this wallpaper on some site, but unfortunately I didn't find the source, so I can't give credit to the author) <br/>
+◉ Wallpaper: Sahara? (I found this wallpaper on some site, but unfortunately I didn't find the source, so I can't give credit to the author) <br/>
 ◉ GTK Theme: <a href="https://github.com/vinceliuice/Orchis-theme.git">Orchis<a/><br/>
 ◉ Icon Theme: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git">Papirus<a/><br/>
 ◉ Fonts: <a href="https://github.com/rsms/inter.git">Inter<a/>, Liberation Serif(serif font)<br/>
