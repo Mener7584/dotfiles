@@ -1,9 +1,9 @@
 This is my first unixporn rice!!!!!<br/>
 ◉ Wallpaper: Sahara? (I found this wallpaper on some site, but unfortunately I didn't find the source, so I can't give credit to the author) <br/>
-◉ GTK Theme: Orchis<br/>
-◉ Icon Theme: Papirus<br/>
-◉ Fonts: Inter, Liberation Serif(serif font)<br/>
-◉ Monospace: JetBrains Mono<br/>
+◉ GTK Theme: <a href="https://github.com/vinceliuice/Orchis-theme.git">Orchis<a/><br/>
+◉ Icon Theme: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git">Papirus<a/><br/>
+◉ Fonts: <a href="https://github.com/rsms/inter.git">Inter<a/>, Liberation Serif(serif font)<br/>
+◉ Monospace: <a href="https://github.com/JetBrains/JetBrainsMono">JetBrains Mono<a/><br/>
 ◉ Term: foot<br/>
 ◉ Application launcher: Rofi(wayland version)
 
