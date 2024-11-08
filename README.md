@@ -1,4 +1,13 @@
-This is my first unixporn rice!!!!!
+This is my first unixporn rice!!!!!<br/>
+◉ Wallpaper: Sahara? (I found this wallpaper on some site, but unfortunately I didn't find the source, so I can't give credit to the author) <br/>
+◉ GTK Theme: Orchis<br/>
+◉ Icon Theme: Papirus<br/>
+◉ Fonts: Inter, Liberation Serif(serif font)<br/>
+◉ Monospace: JetBrains Mono<br/>
+◉ Term: foot<br/>
+◉ Application launcher: Rofi(wayland version)
+
+
 ![screen-1731055222](https://github.com/user-attachments/assets/3a2cb143-9914-4c82-b6f4-c0906f7ebe31)
 
 ![screen-1731055681](https://github.com/user-attachments/assets/369c3007-47d6-4247-91a9-eac1ccfc8d19)
