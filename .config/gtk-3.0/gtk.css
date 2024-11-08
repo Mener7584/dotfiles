@@ -12,22 +12,6 @@ decoration {
   box-shadow: none;
 }
 
-/* Remove border on window Graphite-theme */
-/* decoration { */
-/* border: 0; */
-/* } */
-
-/* Remove empty headerbar */
-/* headerbar { */
-/* min-height: 0; */
-/* } */
-
-/* Add border to toolkit,menu */
-/* tooltip, */
-/* menu { */
-/* border: 0.111111rem solid @theme_selected_bg_color; */
-/* } */
-
 /* No (default) title bar on wayland */
 headerbar.default-decoration {
   margin-bottom: 50px;
