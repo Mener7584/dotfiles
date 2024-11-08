@@ -18,5 +18,6 @@ export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 # Set xdg current desktop
 export XDG_CURRENT_DESKTOP=river
 
+### add -no-xwayland for disable xwayland
 # Run session
-exec dbus-run-session river -log-level error -no-xwayland
+exec dbus-run-session river -log-level error
