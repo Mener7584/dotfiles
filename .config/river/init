@@ -21,7 +21,7 @@ riverctl spawn 'gsettings set org.gnome.desktop.wm.preferences button-layout "ap
 riverctl spawn 'foot -s'
 riverctl spawn 'ryzenadj -f 75'
 riverctl spawn 'mako'
-riverctl spawn 'waybar -c $HOME/.config/waybar/Sahara/config.jsonc -s $HOME/.config/waybar/Sahara/style.css -l warning'
+riverctl spawn 'waybar -c $HOME/.config/waybar/Sahara/river.jsonc -s $HOME/.config/waybar/Sahara/style.css -l warning'
 riverctl spawn 'wl-paste --watch cliphist -max-items 36 store'
 riverctl spawn '/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1'
 riverctl spawn 'swaybg -i $HOME/.local/share/wallpapers/Sahara.jpg -m fill'
@@ -38,7 +38,7 @@ riverctl border-color-unfocused 0x4d4541
 riverctl map normal Super Return spawn 'footclient'
 riverctl map normal Super D spawn 'rofi -show drun -config $HOME/.config/rofi/Sahara/Sahara.rasi'
 riverctl map normal Super+Shift R spawn '$HOME/.config/river/exec reboot'
-riverctl map normal Super+Shift P spawn '$HOME/.config/river/exec poweroff'
+riverctl map normal Super+Shift P spawn '$HOME/.config/river/exec  poweroff'
 riverctl map normal None Print spawn 'grim $HOME/Pictures/screen-"$(date +%s)".png'
 riverctl map normal Super Print spawn 'grim -g "$(slurp)" $HOME/Pictures/screen-"$(date +%s)".png'
 
