@@ -1,0 +1,54 @@
+# Emmet
+[language-server.emmet-ls]
+args = ["--stdio"]
+command="emmet-ls"
+
+# Sass
+[language-server.sassc]
+args = ["-s"]
+command="sassc"
+
+# C
+[[language]]
+name = "c"
+formatter = { command = 'clang-format' }
+auto-format = true
+
+# JavaScript
+[[language]]
+name = "javascript"
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+
+# HTML
+[[language]]
+name = "html"
+language-servers = ["vscode-html-language-server", "emmet-ls"]
+formatter = { command = 'prettier', args = ["--parser", "html"] }
+auto-format = true
+
+# CSS
+[[language]]
+name = "css"
+language-servers = ["vscode-css-language-server", "emmet-ls"]
+formatter = { command = 'prettier', args = ["--parser", "css"]}
+auto-format = true
+
+# SCSS
+[[language]]
+name = "scss"
+language-servers = ["sassc", "emmet-ls"]
+formatter = { command = 'prettier', args = ["--parser", "scss"]}
+auto-format = true
+
+# JSON
+[[language]]
+name = "json"
+formatter = { command = 'prettier', args = ["--parser", "json"] }
+auto-format = true
+
+# JSONC
+[[language]]
+name = "jsonc"
+formatter = { command = 'prettier', args = ["--parser", "json"] }
+auto-format = true
