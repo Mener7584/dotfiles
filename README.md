@@ -1,11 +1,11 @@
 This is my first unixporn rice!!!!!<br/>
-◉ Wallpaper: Sahara? (I found this wallpaper on some site, but unfortunately I didn't find the source, so I can't give credit to the author) <br/>
-◉ GTK Theme: <a href="https://github.com/vinceliuice/Orchis-theme.git">Orchis<a/><br/>
-◉ Icon Theme: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git">Papirus<a/><br/>
-◉ Fonts: <a href="https://github.com/rsms/inter.git">Inter<a/>, Liberation Serif(serif font)<br/>
-◉ Monospace: <a href="https://github.com/JetBrains/JetBrainsMono">JetBrains Mono<a/><br/>
-◉ Term: foot<br/>
-◉ Application launcher: Rofi(wayland version)
+  ◉ Wallpaper: Sahara? (I found this wallpaper on some site, but unfortunately I didn't find the source, so I can't give credit to the author) <br/>
+  ◉ GTK Theme: <a href="https://github.com/vinceliuice/Orchis-theme.git">Orchis<a/><br/>
+  ◉ Icon Theme: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git">Papirus<a/><br/>
+  ◉ Fonts: <a href="https://github.com/rsms/inter.git">Inter<a/>, Liberation Serif(serif font)<br/>
+  ◉ Monospace: <a href="https://github.com/JetBrains/JetBrainsMono">JetBrains Mono<a/><br/>
+  ◉ Term: foot<br/>
+  ◉ Application launcher: Rofi(wayland version)
 
 
 ![screen-1731055222](https://github.com/user-attachments/assets/3a2cb143-9914-4c82-b6f4-c0906f7ebe31)
